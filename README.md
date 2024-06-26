@@ -189,6 +189,6 @@ Thanks for checking out my Walmart Sales Performance Analysis Project! Your inte
         LinkedIn
     </a>
 
-   | Mohd Muddassir | </a> <br>
+   | **Mohd Muddassir** | </a> <br>
 Don't forget to follow and star ⭐ the repository if you find it valuable.
 </div>
