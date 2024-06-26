@@ -65,3 +65,37 @@ Display a summary of total number of customers , total sales per customer and to
 
 Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
 
+## Lets's Know how I fulfilled these requireements 
+**Data Import and Relationship Creation** Imported four datasets: Customers, Location, Orders, and Products. Established relationships between these datasets to ensure seamless data integration and accurate analysis.
+
+**Understanding Client Requirements** Collaborated with the client to understand their specific needs and requirements.
+
+**Create Calculated fields and Parameters**
+
+- Created a 'Select Year' parameter to enable dynamic filtering of data based on the selected year.
+
+ Some Calculated fields like;
+ 
+>>**1. CY Measures :-**
+- CY Sales = IF YEAR([Order Date]) = [Select Year] THEN [Sales]
+-  CY Profit = IF YEAR([Order Date]) = [Select Year] THEN [Profit]
+-  CY Quantity = IF YEAR([Order Date]) = [Select Year] THEN [Quantity]
+-  CY Customers = IF YEAR([Order Date]) = [Select Year] THEN [Customer ID]
+- CY Orders = IF YEAR([Order Date]) = [Select Year] THEN [Order ID]
+- CY Sales Per Customer = SUM([CY Sales])/COUNTD([CY Customers])
+
+>>**2. PY Measures :-**
+-        
+    PY Sales = IF YEAR([Order Date]) = [Select Year]-1 THEN [Sales]
+-  PY Profit = IF YEAR([Order Date]) = [Select Year]-1 THEN [Profit]
+-  PY Quantity = IF YEAR([Order Date]) = [Select Year]-1 THEN [Quantity]
+-  PY Customers = IF YEAR([Order Date]) = [Select Year]-1 THEN [Customer ID]
+- PY Orders = IF YEAR([Order Date]) = [Select Year]-1 THEN [Order ID]
+- PY Sales Per Customer = SUM([PY Sales])/COUNTD([PY Customers])
+
+
+
+
+## Lets's Know how I fulfilled these requireements 
+- **Data Import and Relationship Creation**
+Imported four datasets: Customers, Location, Orders, and Products. Established relationships between these datasets to ensure seamless data integration and accurate analysis.
