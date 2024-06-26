@@ -149,3 +149,6 @@ Allow users to filter data by product information like category and subcategory 
     - **Customer Distribution** : Designed a **Bar Chart** with parameter to show the distribution of customers in Current Year.
     - **Top 10 Customers** : Designed a **Matrix Table** to show the **Top 10 customers** with '*Customer Name*', '*Last Order Date*', '*CY Profit*', '*CY Sales*' and '*Count of Orders by Customer*'.
 
+- **Dashaboard Designing** :   
+  Create an interactive Tableau dashboard that visually represents **Walmart Sales Performance** and added a drill-down feature (*drill down button*) in the **Sales Dashboard** to navigate to the **Customer Dashboard**.
+
