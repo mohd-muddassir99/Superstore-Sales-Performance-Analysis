@@ -4,7 +4,7 @@
 </div>
 
 ## Introduction:- 
-The project consists of two dashboards (Sales & Customer) built using Tableau to help stakeholders, including sales managers and executives to analyze sales performance and customers.The purpose of the sales dashboard is to present an overview of the sales metrics and trends in order to analyze year-over-year sales performance and understand sales trends. The customer dashboard aims to provide an overview of customer data, trends and behaviors. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
+The project consists of two dashboards (Sales & Customer) built using Tableau to help stakeholders, including sales managers and executives to analyze sales performance and customers.The objective of this project is to create a comprehensive dashboard for Walmart's sales performance. The dashboard aims to provide insights into sales, profit, and quantity metrics, allowing stakeholders to easily compare current year (CY) and previous year (PY) performance. Additionally, the dashboard offers detailed geographic sales analysis and customer performance metrics, facilitating data-driven decision-making. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
 
 ## Sales Dashboard | Requirements 
 **Dashboard Purpose**
