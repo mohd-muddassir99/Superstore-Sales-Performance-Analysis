@@ -94,4 +94,13 @@ Allow users to filter data by product information like category and subcategory 
        ► PY Orders = IF YEAR([Order Date]) = [Select Year]-1 THEN [Order ID]
        ► PY Sales Per Customer = SUM([PY Sales])/COUNTD([PY Customers])
 
+**3. % Difference Calculation Compare to PY :-**
+
+       ► % Difference Sales = (SUM([CY Sales]) - SUM([PY Sales ]))/SUM([PY Sales ])
+       ► % Difference Profit = (SUM([CY Profit]) - SUM([PY Profit]))/SUM([PY Profit])
+       ► % Difference Quantity = (SUM([CY Quantity]) - SUM([PY Quantity]))/SUM([PY Quantity])
+       ► % Difference Customers = (COUNTD([CY Customers]) - COUNTD([PY Customers])) / COUNTD([PY Customers])
+       ► % Difference Orders = (COUNTD([CY orders]) - COUNTD([PY orders])) / COUNTD([PY orders])
+       ► % Difference Sales Per Customer = ([CY Sales per Customer] - [PY Sales per Customer]) / [PY Sales per Customer]
+
 
