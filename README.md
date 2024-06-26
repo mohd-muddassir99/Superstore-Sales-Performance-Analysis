@@ -159,4 +159,22 @@ Allow users to filter data by product information like category and subcategory 
 
 - **Customer Analysis Dashboard**
 
+## Project Insights🥇 :-
+- **Performance Comparison** : The dual axis chart allows for a clear comparison of CY and PY sales and profit by sub-category, highlighting areas of growth or decline.
+- **Sales and Profit Trends** : The trend analysis chart provides a clear visualization of sales and profit trends over time, helping identify seasonal patterns and anomalies.
+- **Geographic Analysis** : The sales map offers insights into regional performance, allowing for targeted strategies based on geographic data.
+- **Customer Insights** : The customer dashboard provides detailed insights into customer behavior, including top-performing customers and overall customer distribution, aiding in customer relationship management.
+- **Year-over-Year Performance** : Evaluate the growth or decline in sales, profit, and quantity sold. Understand the percentage change to strategize future actions.
+
+
+### View & Download the live Tableau Dashboard here:
+
+
+
+<p align="center">
+    <a href="https://public.tableau.com/views/SalesPerformanceDashboard_17183446381950/SalesDashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">
+        <img src="https://www.tableau.com/sites/default/files/blog/tableautips_30.png" width="65px" alt="Access Dataset"><br> View
+    </a>
+</p> <br>
+
 
