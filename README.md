@@ -173,7 +173,7 @@ Allow users to filter data by product information like category and subcategory 
 
 <p align="center">
     <a href="https://public.tableau.com/views/SalesPerformanceDashboard_17183446381950/SalesDashboard?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link">
-        <img src="https://www.tableau.com/sites/default/files/blog/tableautips_30.png" width="65px" alt="Access Dataset"><br> View
+        <img src="https://public.tableau.com/app/assets/images/tableau-public-logo-with-padding.png" width="150px height="150px"" alt="Access Dataset"><br> View
     </a>
 </p> <br>
 
