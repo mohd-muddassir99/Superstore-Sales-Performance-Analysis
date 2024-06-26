@@ -66,13 +66,15 @@ Display a summary of total number of customers , total sales per customer and to
 Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
 
 ## Lets's Know how I fulfilled these requireements 
-**Data Import and Relationship Creation** Imported four datasets: Customers, Location, Orders, and Products. Established relationships between these datasets to ensure seamless data integration and accurate analysis.
+- **Data Import and Relationship Creation**         
+  Imported four datasets: Customers, Location, Orders, and Products. Established relationships between these datasets to ensure seamless data integration and accurate analysis.
 
-**Understanding Client Requirements** Collaborated with the client to understand their specific needs and requirements.
+- **Understanding Client Requirements**   
+  Collaborated with the client to understand their specific needs and requirements.
 
-**Create Calculated fields and Parameters**
+- **Create Calculated fields and Parameters**
 
-- Created a 'Select Year' parameter to enable dynamic filtering of data based on the selected year.
+   ► Created a '**Select Year**' parameter to enable dynamic filtering of data based on the selected year.
 
  Some Calculated fields like;
  
@@ -135,4 +137,15 @@ Allow users to filter data by product information like category and subcategory 
                                        ELSEIF [CY Sales per Customer] = WINDOW_MIN([CY Sales per Customer])
                                        THEN [CY Sales per Customer] END
 
+- **Designing Key Performance Indicators (KPIs)**  
+  Developed KPIs for Total Sales, Total Profit, Total Quantity Sold, Total Customers, Total Sales Per Customer and Total Orders in the Current year & previous year in **Line Chart**. Calculated the percentage change for these KPIs compared to the previous year.
+
+
+- **Visualizations**
+    
+    - **Dual Axis Bar Chart** : Created a **Dual Axis Bar Chart** with sub-categories to compare CY and PY sales and profit.
+    - **Sales and Profit Trend** : Designed a **Line Chart** to visualize sales and profit over time, including an average line for easy comparison.
+    - **Geographical Sales Map** : Developed a **Map Chart** to display sales geographically, using color to represent sales volume. To go deep dive I added a **Bar Chart** in the tooltip to show sales by cities.
+    - **Customer Distribution** : Designed a **Bar Chart** with parameter to show the distribution of customers in Current Year.
+    - **Top 10 Customers** : Designed a **Matrix Table** to show the **Top 10 customers** with '*Customer Name*', '*Last Order Date*', '*CY Profit*', '*CY Sales*' and '*Count of Orders by Customer*'.
 
