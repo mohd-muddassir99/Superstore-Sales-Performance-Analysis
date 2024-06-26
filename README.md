@@ -76,26 +76,22 @@ Allow users to filter data by product information like category and subcategory 
 
  Some Calculated fields like;
  
->>**1. CY Measures :-**
-- CY Sales = IF YEAR([Order Date]) = [Select Year] THEN [Sales]
--  CY Profit = IF YEAR([Order Date]) = [Select Year] THEN [Profit]
--  CY Quantity = IF YEAR([Order Date]) = [Select Year] THEN [Quantity]
--  CY Customers = IF YEAR([Order Date]) = [Select Year] THEN [Customer ID]
-- CY Orders = IF YEAR([Order Date]) = [Select Year] THEN [Order ID]
-- CY Sales Per Customer = SUM([CY Sales])/COUNTD([CY Customers])
+**1. CY Measures :-**
 
->>**2. PY Measures :-**
--        
-    PY Sales = IF YEAR([Order Date]) = [Select Year]-1 THEN [Sales]
--  PY Profit = IF YEAR([Order Date]) = [Select Year]-1 THEN [Profit]
--  PY Quantity = IF YEAR([Order Date]) = [Select Year]-1 THEN [Quantity]
--  PY Customers = IF YEAR([Order Date]) = [Select Year]-1 THEN [Customer ID]
-- PY Orders = IF YEAR([Order Date]) = [Select Year]-1 THEN [Order ID]
-- PY Sales Per Customer = SUM([PY Sales])/COUNTD([PY Customers])
+        ► CY Sales = IF YEAR([Order Date]) = [Select Year] THEN [Sales]
+        ► CY Profit = IF YEAR([Order Date]) = [Select Year] THEN [Profit]
+        ► CY Quantity = IF YEAR([Order Date]) = [Select Year] THEN [Quantity]
+        ► CY Customers = IF YEAR([Order Date]) = [Select Year] THEN [Customer ID]
+        ► CY Orders = IF YEAR([Order Date]) = [Select Year] THEN [Order ID]
+        ► CY Sales Per Customer = SUM([CY Sales])/COUNTD([CY Customers])
+
+**2. PY Measures :-**
+
+       ► PY Sales = IF YEAR([Order Date]) = [Select Year]-1 THEN [Sales]
+       ► PY Profit = IF YEAR([Order Date]) = [Select Year]-1 THEN [Profit]
+       ► PY Quantity = IF YEAR([Order Date]) = [Select Year]-1 THEN [Quantity]
+       ► PY Customers = IF YEAR([Order Date]) = [Select Year]-1 THEN [Customer ID]
+       ► PY Orders = IF YEAR([Order Date]) = [Select Year]-1 THEN [Order ID]
+       ► PY Sales Per Customer = SUM([PY Sales])/COUNTD([PY Customers])
 
 
-
-
-## Lets's Know how I fulfilled these requireements 
-- **Data Import and Relationship Creation**
-Imported four datasets: Customers, Location, Orders, and Products. Established relationships between these datasets to ensure seamless data integration and accurate analysis.
