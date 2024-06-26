@@ -103,4 +103,36 @@ Allow users to filter data by product information like category and subcategory 
        ► % Difference Orders = (COUNTD([CY orders]) - COUNTD([PY orders])) / COUNTD([PY orders])
        ► % Difference Sales Per Customer = ([CY Sales per Customer] - [PY Sales per Customer]) / [PY Sales per Customer]
 
+**4. Min/Max Calculation :-**
+
+        ► Min/Max Sales = IF SUM([CY Sales]) = WINDOW_MAX(SUM([CY Sales]))
+                          THEN SUM([CY Sales]) 
+                          ELSEIF SUM([CY Sales]) = WINDOW_MIN(SUM([CY Sales])
+                          THEN SUM([CY Sales]) END  
+
+        ► Min/Max Profit = IF SUM([CY Profit]) = WINDOW_MAX(SUM([CY Profit]))
+                           THEN SUM([CY Profit])
+                           ELSEIF SUM([CY Profit]) = WINDOW_MIN(SUM([CY Profit]))
+                           THEN SUM([CY Profit]) END
+
+        ► Min/Max Quantity = IF SUM([CY Quantity]) = WINDOW_MAX(SUM([CY Quantity]))
+                             THEN SUM([CY Quantity])
+                             ELSEIF SUM([CY Quantity]) = WINDOW_MIN(SUM([CY Quantity]))
+                             THEN SUM([CY Quantity]) END
+
+        ► Min/Max Customers = IF COUNTD([CY Customers]) = WINDOW_MAX(COUNTD([CY Customers]))
+                              THEN COUNTD([CY Customers])
+                              ELSEIF COUNTD([CY Customers]) = WINDOW_MIN(COUNTD([CY Customers]))
+                              THEN COUNTD([CY Customers]) END 
+
+        ► Min/Max Orders = IF COUNTD([CY orders]) = WINDOW_MAX(COUNTD([CY orders]))
+                           THEN COUNTD([CY orders])
+                           ELSEIF COUNTD([CY orders]) = WINDOW_MIN(COUNTD([CY orders]))
+                           THEN COUNTD([CY orders]) END
+
+        ► Min/Max Sales Per Customer = IF [CY Sales per Customer] = WINDOW_MAX([CY Sales per Customer])
+                                       THEN [CY Sales per Customer] 
+                                       ELSEIF [CY Sales per Customer] = WINDOW_MIN([CY Sales per Customer])
+                                       THEN [CY Sales per Customer] END
+
 
