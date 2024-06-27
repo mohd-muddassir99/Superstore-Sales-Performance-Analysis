@@ -156,6 +156,10 @@ Allow users to filter data by product information like category and subcategory 
 
 - **Sales Analysis Dashboard**
 
+https://github.com/mohd-muddassir99/Walmart-Sales-Performance-Analysis/assets/153819384/d1bb3205-bfa6-4108-bd23-7f183c8346a9
+
+
+
 
 - **Customer Analysis Dashboard**
 
