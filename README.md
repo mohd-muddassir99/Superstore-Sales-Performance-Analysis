@@ -196,5 +196,5 @@ Thanks for checking out my Walmart Sales Performance Analysis Project! Your inte
     </a>
 
    | **Mohd Muddassir** | </a> <br>
-Don't forget to follow and star ⭐ the repository if you findit valuable.
+Don't forget to follow and star ⭐ the repository if you find it valuable.
 </div>
