@@ -154,7 +154,7 @@ Allow users to filter data by product information like category and subcategory 
 - **Dashboard Designing** :   
   Create an interactive Tableau dashboard that visually represents **Walmart Sales Performance** and added a drill-down feature (*drill down button*) in the **Sales Dashboard** to navigate to the **Customer Dashboard**.
 
-## Dashboard 📊🚀 :- 
+## Dashboard 📊🚀:- 
 
 - **Sales Analysis Dashboard**
 
