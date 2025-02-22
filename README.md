@@ -165,7 +165,7 @@ https://github.com/mohd-muddassir99/Walmart-Sales-Performance-Analysis/assets/15
 
 
 
-## Project Insights🥇 :-
+## Project Insights🥇:-
 - **Performance Comparison** : The dual axis chart allows for a clear comparison of CY and PY sales and profit by sub-category, highlighting areas of growth or decline.
 - **Sales and Profit Trends** : The trend analysis chart provides a clear visualization of sales and profit trends over time, helping identify seasonal patterns and anomalies.
 - **Geographic Analysis** : The sales map offers insights into regional performance, allowing for targeted strategies based on geographic data.
