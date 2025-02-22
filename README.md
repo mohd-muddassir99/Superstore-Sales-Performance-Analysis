@@ -3,7 +3,7 @@
     <img src="https://preview.redd.it/lju1uyute9p51.jpg?auto=webp&s=bce4f624c4f71034738e2b4e7b7f2f6dada08905" width="600px" height="300px">
 </div>
 
-## Introduction
+## Introduction:
 The project consists of two dashboards (Sales & Customer) built using Tableau to help stakeholders, including sales managers and executives to analyze sales performance and customers.The objective of this project is to create a comprehensive dashboard for Walmart's sales performance. The dashboard aims to provide insights into sales, profit, and quantity metrics, allowing stakeholders to easily compare current year (CY) and previous year (PY) performance. Additionally, the dashboard offers detailed geographic sales analysis and customer performance metrics, facilitating data-driven decision-making. It will help marketing teams and management to understand customer segments and improve customer satisfaction.
 
 ## Sales Dashboard | Requirements 
