@@ -65,7 +65,7 @@ Display a summary of total number of customers , total sales per customer and to
 
 Allow users to filter data by product information like category and subcategory and by location information like region, state and city.
 
-## Lets's Know how I fulfilled these requireements 
+## Lets's Know how I fulfilled these requirements 
 - **Data Import and Relationship Creation**         
   Imported four datasets: Customers, Location, Orders, and Products. Established relationships between these datasets to ensure seamless data integration and accurate analysis.
 
