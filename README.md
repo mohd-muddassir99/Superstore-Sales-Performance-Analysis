@@ -78,7 +78,7 @@ Allow users to filter data by product information like category and subcategory 
   ![Parameter](https://github.com/mohd-muddassir99/Walmart-Sales-Performance-Analysis/assets/153819384/fd0db11c-b5d4-4e84-807f-5ac3b3f9530f)
 
 
- Some Calculated fields like;
+ Some Calculated fields like:
  
 **1. CY Measures :-**
 
